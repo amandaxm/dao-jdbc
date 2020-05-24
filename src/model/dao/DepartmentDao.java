@@ -9,10 +9,13 @@ public interface DepartmentDao {
 
 	
 	void insert(Department obj);
+
 	void update(Department obj);
-	void deleteById(Integer obj);
-	Department findbyId(Integer id);//retorna id
-	//retorna todos 
+
+	void deleteById(Integer id);
+
+	Department findById(Integer id);
+
 	List<Department> findAll();
 	
 	
